@@ -2,7 +2,7 @@
 > file annotations have to be on top of everything, just switch places between your annotation and package
 
 
-But if we do so it does not work
+But if we do so it does not work above a package statement
 ```bash
 gradle build
 ```
