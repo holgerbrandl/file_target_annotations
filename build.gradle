@@ -1,0 +1,27 @@
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    ext.kotlin_version = "1.2.0"
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'kotlin'
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:1.2.0"
+    compile 'com.github.holgerbrandl:kscript-annotations:1.1'
+}
