@@ -1,8 +1,8 @@
+# Problem
 
-> file annotations have to be on top of everything, just switch places between your annotation and package
+> file annotations have to be on top of everything
 
-
-It seems to work only for stdlb annotations and not for annotations added via classpath.
+But even if placed at the top of `kt` file, `file:` use site annotations seems to work only for stdlb annotations and not for annotations added via classpath.
 
 This repo contains a SSCE to illustrate the issue.
 
